@@ -1,0 +1,6 @@
+# Dockerfile from vmcamillo/stoqjs:dev build
+
+FROM fczuardi/nodejs:ubuntu_xenial--11.10.1
+
+RUN DEBIAN_FRONTEND="noninteractive" apt update -yq && \
+    DEBIAN_FRONTEND="noninteractive" apt install -y build-essential python
