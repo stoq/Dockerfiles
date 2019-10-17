@@ -18,7 +18,7 @@ This repository contains all of STOQ's Dockerfiles.
 
 		- set the configs to: branch, 'master', <tag to the build>,
 		  <name of Dockerfile>, '/'. Autobuild and Build Caching should
-be enabled.
+		  be enabled.
 
 		- click the 'Save and Build' button.
 
