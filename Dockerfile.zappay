@@ -1,0 +1,5 @@
+FROM node:10-alpine
+
+RUN apk add --no-cache bash git yarn openjdk8-jre python build-base linux-headers eudev-dev cups-dev
+RUN npm -g install lerna firebase-tools
+RUN firebase setup:emulators:firestore
